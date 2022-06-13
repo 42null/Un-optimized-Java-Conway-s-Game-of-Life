@@ -81,11 +81,13 @@ class WorldGenerator{
         }//End of catch
 
 
-        conwayMap = WorldMapThing.generateThing();
-        // char[][] conwayMap1 = generateLayer(conwayMap,'░');
+        //@@@conwayMap = WorldMapThing.generateThing();
+        //char[][] conwayMap1 = generateLayer(conwayMap,'░');g
         // conwayMap1 = generateLayer1(conwayMap,42);
-        conwayD_OLD_Na(conwayMap,75/*1001*/,0.25,false);
-        conwayD_OLD_Na(conwayMap,3000/*1001*/,0.0,false);
+//        conwayD_OLD_Na(conwayMap,75/*1001*/,0.25,false);
+//        generateLayer1(conwayMap,d);
+//        conwayD_OLD_Na(conwayMap,3000/*1001*/,0.06,false);
+        conwayD_OLD_Na(conwayMap,3000/*1001*/,0.11,false);
 
         // conwayMap = consodolate(conwayMap,'░',false);
         printWorld(conwayMap,false);
